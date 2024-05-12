@@ -1,0 +1,16 @@
+Algoritmo VerificarArara;
+Var
+    caracter1, caracter2: caractere;
+
+Inicio
+    // Entrada de dados
+    escreva("Digite a primeira letra (a ou r): ")
+    leia(caracter1)
+    escreva("Digite a segunda letra (a ou r): ")
+    leia(caracter2)
+
+    // Verificação e impressão da palavra "arara"
+    se(caracter1 = 'a' e caracter2 = 'r' ou caracter1 = 'r' e caracter2 = 'a') então
+        escreva("arara")
+    fimse
+FimAlgoritmo

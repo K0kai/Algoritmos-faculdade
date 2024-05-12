@@ -1,0 +1,12 @@
+Algoritmo IdadeAltura;
+Var
+    idade: real;
+    altura: caractere;
+
+Inicio
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreva("Digite sua altura: ")
+    leia(altura)
+    escreva("Sua idade é: ", idade, " e sua altura é: ", altura) 
+FimAlgoritmo

@@ -1,0 +1,20 @@
+Algoritmo SomaProduto;
+Var
+    num1, num2, num3, soma, produto: inteiro;
+
+Inicio
+    escreva("Digite o primeiro número inteiro: ")
+    leia(num1)
+    escreva("Digite o segundo número inteiro: ")
+    leia(num2)
+    escreva("Digite o terceiro número inteiro: ")
+    leia(num3)
+
+    soma <- num1 + num2 + num3
+    produto <- num1 * num2 * num3
+
+    escreva("\n")
+    escreva("A soma dos números é: ", soma)
+    escreva("\n\n")
+    escreva("O produto dos números é: ", produto)
+FimAlgoritmo

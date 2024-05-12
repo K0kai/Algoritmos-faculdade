@@ -1,0 +1,24 @@
+Algoritmo EscreverLetras;
+Var
+    l1, l2, l3, l4, l5: caractere;
+
+Inicio
+    escreva("Digite uma letra: ")
+    leia(l1)
+    escreva("Digite uma letra: ")
+    leia(l2)
+    escreva("Digite uma letra: ")
+    leia(l3)
+    escreva("Digite uma letra: ")
+    leia(l4)
+    escreva("Digite uma letra: ")
+    leia(l5)
+
+    escreva("\n", l1)
+    escreva("\n", l2)
+    escreva("\n", l3)
+    escreva("\n", l4)
+    escreva("\n", l5)
+
+    escreva("\n", l1, l2, l3, l4, l5)
+FimAlgoritmo

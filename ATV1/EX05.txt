@@ -1,0 +1,22 @@
+Algoritmo SomaMediaCincoNumeros;
+Var
+    num1, num2, num3, num4, num5: real;
+    soma, media: real;
+
+Inicio
+    escreva("Digite um número real: ")
+    leia(num1)
+    escreva("Digite um número real: ")
+    leia(num2)
+    escreva("Digite um número real: ")
+    leia(num3)
+    escreva("Digite um número real: ")
+    leia(num4)
+    escreva("Digite um número real: ")
+    leia(num5)
+
+    soma <- num1 + num2 + num3 + num4 + num5
+    media <- soma / 5
+
+    escreva("Resultado da soma: ", soma, " Resultado da média: ", media)
+FimAlgoritmo

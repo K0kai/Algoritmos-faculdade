@@ -1,0 +1,25 @@
+Algoritmo DesenharBanner;
+Var
+    i: inteiro;
+
+Inicio
+    para i <- 0 ate 30 faca
+        escreva("#")
+    fimpara
+
+    para i <- 0 ate 1 faca
+        escreva("\n| \t                          |")
+    fimpara
+
+    escreva("\n| \t   #somostodosnewton      |")
+
+    para i <- 0 ate 1 faca
+        escreva("\n| \t                          |")
+    fimpara
+
+    escreva("\n")
+
+    para i <- 0 ate 30 faca
+        escreva("#")
+    fimpara
+FimAlgoritmo

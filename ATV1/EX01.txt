@@ -1,0 +1,9 @@
+Algoritmo Idade;
+Var
+    idade: real;
+
+Inicio
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreva(idade)
+FimAlgoritmo
